@@ -51,7 +51,7 @@ basicNN
 cor(SIMS~ARM,data=data)
 ```
 
-
+These results show that there is a fair amount of relationship between Sims and Arm strength.
 
 ### Inferential (Build model.1)
 
