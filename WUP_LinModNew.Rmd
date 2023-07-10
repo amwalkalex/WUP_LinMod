@@ -114,8 +114,7 @@ Sims verses ARM has a bigger number for the correlation. So it is mote correlate
 model.2 <- lm(SIMS~ARM,data=data)
 summary.lm(model.2)
 ```
-
-Adjusted R square and multiple R square compared is that we always look at the adjusted R square numbers. As you put more in your  model, the adjusted R-squared will go up.
+The results show that the SIMS verses Rmodel is better that the SIMS verse GRIP modl.
 
 
 
