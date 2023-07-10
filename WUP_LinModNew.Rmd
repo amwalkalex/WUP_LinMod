@@ -189,7 +189,7 @@ The p-value is smaller than model1. There is a big difference between the data m
 anova(model.1, model.2)
 ```
 
-
+So we reduced the sum of square errors between these two models. This anova model does not show a p-value.
 
 
 ## Informally compare Model.1 with model.2
