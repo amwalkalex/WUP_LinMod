@@ -161,6 +161,11 @@ The model is SIMS = 037311 x ARM + ..024470 x GRIP - 5.433871.
 
 #### predict model.3 at target point
 
+```{r}
+predict.lm(model.3, mydata, interval ="prediction")
+```
+
+
 ## Comparing nested models ANOVA Test
 
 ### Model.1 vs Model.3
