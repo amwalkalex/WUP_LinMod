@@ -59,7 +59,7 @@ These results show that there is a fair amount of relationship between Sims and 
 model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
-
+Adjusted R square and multiple R square compared is that we always look at the adjusted R square numbers. As you put more in your  model, the adjusted Rsquared will go up.
 
 #### Predict at target point
 
