@@ -73,6 +73,18 @@ The value it predicted was a 1.58 in change but it could go from a a negative .8
 
 #### scatterplot with model fit
 
+```{r}
+basicNN <- ggplot(data, aes(y = SIMS, x = ARM)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "SIMS ~ ARM") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+basicNN
+
+```
+
+
 ## Model 2 SIM\~GRIP
 
 ### Now add in scatterplot
