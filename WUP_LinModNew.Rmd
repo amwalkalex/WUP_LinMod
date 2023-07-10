@@ -111,16 +111,32 @@ Sims verses ARM has a bigger number for the correlation. So it is mote correlate
 ### Inferential (Build model.2)
 
 ```{r}
-model.2 <- lm(SIMS~ARM,data=data)
+model.2 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.2)
 ```
-The results show that the SIMS verses Rmodel is better that the SIMS verse GRIP modl.
 
-
+The results show that the SIMS verses R model is better that the SIMS verse GRIP model.
 
 #### predict model.2 at target point
 
+```{r}
+predict.lm(model.2, mydata, interval ="prediction")
+```
+
 #### now add the model fit to our plot for model.2
+
+
+```{r}
+mygrip <- ggplot(data, aes(y = SIMS, x = GRIP)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "SIMS ~ GRIP") +
+  theme(plot.title = element_text(hjust = 0.5))
+
+mygrip
+
+```
+
 
 ## Model 3 SIM\~ARM+GRIP
 
