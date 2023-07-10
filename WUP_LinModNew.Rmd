@@ -156,7 +156,8 @@ model.3 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.3)
 ```
 
-
+These results are better than both of the other models, SIMS~GRIP, and SIMS~ARM. This model has a residual standard error of 1.144 and a r-squared of 0.5422. 
+The model is SIMS = 037311 x ARM + ..024470 x GRIP - 5.433871.
 
 #### predict model.3 at target point
 
