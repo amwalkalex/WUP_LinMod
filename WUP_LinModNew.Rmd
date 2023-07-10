@@ -110,6 +110,15 @@ Sims verses ARM has a bigger number for the correlation. So it is mote correlate
 
 ### Inferential (Build model.2)
 
+```{r}
+model.2 <- lm(SIMS~ARM,data=data)
+summary.lm(model.2)
+```
+
+Adjusted R square and multiple R square compared is that we always look at the adjusted R square numbers. As you put more in your  model, the adjusted R-squared will go up.
+
+
+
 #### predict model.2 at target point
 
 #### now add the model fit to our plot for model.2
