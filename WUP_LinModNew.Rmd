@@ -99,9 +99,14 @@ mygrip <- ggplot(data, aes(y = SIMS, x = GRIP)) +
 mygrip
 ```
 
-
-
 ### Numerical results
+
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
+These results show that there is a fair amount of relationship between Sims and Arm strength.
+Sims verses ARM has a bigger number for the correlation. So it is mote correlated to ARM than it is to GRIP 
 
 ### Inferential (Build model.2)
 
