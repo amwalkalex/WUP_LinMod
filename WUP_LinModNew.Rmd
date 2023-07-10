@@ -146,10 +146,17 @@ mygrip
 ```{r}
 cor(SIMS~ARM+GRIP,data=data)
 ```
-When you run SIMS with both of them you get a higher coorelation then when you just run SIMS with ARM and SIMS with GRIP.
+When you run SIMS with both of them you get a higher correlation then when you just run SIMS with ARM and SIMS with GRIP.
 
 
 ### Inferential (Build 2-dimentional model.3)
+
+```{r}
+model.3 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.3)
+```
+
+
 
 #### predict model.3 at target point
 
