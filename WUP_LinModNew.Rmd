@@ -175,8 +175,7 @@ The interval goes from -1.716 and goes to a positive 2.9157.
 anova(model.1, model.3)
 ```
 
-
-
+Gives a p-value of .00000499, which does mpt have any valie. It is comparing the residual standard errors of the model.
 
 
 ### Model.2 vs Model.3
