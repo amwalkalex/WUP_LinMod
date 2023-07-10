@@ -143,7 +143,11 @@ mygrip
 
 ### Numerical results (cor)
 
-\`
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
+When you run SIMS with both of them you get a higher coorelation then when you just run SIMS with ARM and SIMS with GRIP.
+
 
 ### Inferential (Build 2-dimentional model.3)
 
