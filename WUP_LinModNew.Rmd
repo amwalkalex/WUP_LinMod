@@ -164,6 +164,7 @@ The model is SIMS = 037311 x ARM + ..024470 x GRIP - 5.433871.
 ```{r}
 predict.lm(model.3, mydata, interval ="prediction")
 ```
+The interval goes from -1.716 and goes to a positive 2.9157.
 
 
 ## Comparing nested models ANOVA Test
