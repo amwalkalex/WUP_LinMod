@@ -63,6 +63,14 @@ Adjusted R square and multiple R square compared is that we always look at the a
 
 #### Predict at target point
 
+
+```{r}
+mydata<- data.frame(GRIP=88,ARM= 104)
+predict.lm(model.1, mydata, interval = "prediction")
+```
+The value it predicted was a 1.58 in change but it could go from a a negative .863 to a positive 4.02 in change.
+ 
+
 #### scatterplot with model fit
 
 ## Model 2 SIM\~GRIP
