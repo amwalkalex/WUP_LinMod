@@ -122,6 +122,7 @@ The results show that the SIMS verses R model is better that the SIMS verse GRIP
 ```{r}
 predict.lm(model.2, mydata, interval ="prediction")
 ```
+The interval goes from -3.38 to positive 1.766
 
 #### now add the model fit to our plot for model.2
 
